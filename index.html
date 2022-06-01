@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<!-- COMMENT RULES: I COMMENT ON EVERYTHING THAT IS MENTIONED THE FIRST TIME SO I DON'T HAVE TO REPEAT THE COMMENT EVERY SINGLE TIME -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Laurin Limited</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <!-- Links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/Laurin Limited Logo.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/2a5da4ba07.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!-- The bar holding my navigation menu and left logo -->
+        <nav class="navbar navbar-dark bg-transparent fixed-top">
+
+            <!-- Left logo button -->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/Laurin Limited Logo.png" alt="logo" height="50" width="58">
+              </a>
+
+              <!-- Right side navigation menu button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header" style="background-color: #1e8449 ;">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NAVIGATION</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 bg-dark">
+                    <!-- Main link in menu -->
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- List of links in the menu -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="html/aboutme.html">About Me</a>
+                      <a class="nav-link" href="html/arbeidserfaring.html">Arbeidserfaring</a>
+                      <a class="nav-link" href="html/utdanning.html">Utdanning</a>
+                      <a class="nav-link" href="html/services.html">Services</a>
+                      <a class="nav-link" href="html/mywork.html">My Work</a>
+                      <a class="nav-link" href="html/contact.html">Contact</a>
+                    </li>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          
+          <!-- Website logo -->
+          <div class="header-img"> <!-- I put it in a class so I can style it -->
+            <img src="img/LLlogo.png" alt="logo" height="130"width="450"> <!-- img allows me to add images and alter the settings -->
+        </div>
+          <!-- Front header -->
+          <h1 class ="a"><span>THE FRONT TO ALL THINGS</span>...<span>LAURIN</span></h1> <!-- h1 is my titles, I did not use h2, h3 because it was not needed -->
+
+        <!-- The green line to break categories -->
+        <hr id="customhr1" style="color:#1e8449"> <!-- hr is horizontal line -->
+
+        <!-- About me category -->
+        <div class="container-fluid">
+          <h1 id="aboutme">Who am I?</h1>
+          <!-- p lets me write text in a normal size, stands for paragraph -->
+         <p class="aboutme">My name is Arijus Laurin, born in 1st of March 2005. I am originally from Lithuania,<br> but moved to Norway when I was no more than one year old. <br>I have a large interest in Computer Science, and to learn more, click below!</p>
+         <!-- Image & button -->
+         <img id="sittingchair" src="img/mesittingonchair.png"> <!-- I ID my image so I can style it -->
+         <a href="html/aboutme.html"><button class="button" style="vertical-align:middle"><span>ABOUT ME </span></button></a> <!-- 'a' stands for anchor and that is how you link to websites, button is self explanatory -->
+        </div> 
+
+        <!-- The green line to break categories -->
+        <hr id="customhr2" style="color:#1e8449">
+
+          <!-- Work experience category -->
+          <h1 id="workexperience">Work Experience</h1>
+            <p id="paragraph">I am currently a student in Viken and have yet to have the chance to get a lot of work experience.<br> However, I have some experience related to Computer Science in my own free time,<br> and to learn more you can click below.</p>
+            <!-- Button & image -->
+        <a href="html/arbeidserfaring.html"><button class="button2" style="vertical-align:middle"><span>LEARN MORE </span></button></a>
+          <img id="workimage" src="https://www.architweb.com/assets/images/services/server-management.png"/>
+
+          <!-- The green line to break categories -->
+          <hr id="customhr3" style="color:#1e8449">
+
+            <!-- My education category -->
+            <h1 id="education">My Education</h1>
+              <p id="paragraph">I study IT at Bleiker High School and have taken several online courses to further expand my knowledge<br> within Computer Science. To learn more, click below.</p>
+              <!-- Button & image -->
+          <a href="html/utdanning.html"><button class="button3" style="vertical-align:middle"><span>LEARN MORE </span></button></a>
+          <img id="bleiker" src="img/bleiker.png">
+
+          <!-- The green line to break categories -->
+          <hr id="customhr3" style="color:#1e8449">
+
+            <!-- Contact me category -->
+            <h1 id="contactme">CONTACT ME</h1>
+            <i id="thumbsup"class="fas fa-thumbs-up fa-5x" aria-hidden="true"></i>
+              <p id="contactparagraph">You can contact me via social media or Gmail <br> Arijuslau@gmail.com | Meniac#1000 | @Meniaclol</p>
+    
+          <!-- The green line to break categories -->
+          <hr id="footerbreak1" style="color:#1e8449">
+          <hr id="footerbreak2" style="color:#1e8449">
+
+          <!-- Footer -->
+          <div class="footer-basic">
+            <footer>
+              <!-- Link & image to my socials -->
+                <div class="social">
+                  <a href="https://www.instagram.com/meniaclol/"><i class="icon ion-social-instagram"></i></a>
+                  <a href="https://discord.gg/dHWYhDJgcp"><img class="discord" src="img/discord.png"></img></a>
+                  <a href="https://twitter.com/meniaclol"><i class="icon ion-social-twitter"></i></a>
+                  <a href="https://mail.google.com/mail/u/?authuser=arijuslau@gmail.com"><img class="Gmail" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/src/email.svg"></img></a>
+                </div>
+                <!-- Footer copyright -->
+                <p class="copyright">Laurin Limited © 2022</p>
+            </footer>
+
+       <!-- Javascript scripts -->
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+        <script src="javascript/index.js" async defer></script>
+        
+
+    </body>
+</html>

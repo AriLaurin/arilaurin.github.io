@@ -1,0 +1,53 @@
+.container {
+    width: 70%;
+    text-align: center;
+    position: relative;
+    top:50px;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  p {
+    position: relative;
+    top:50px;
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Montserrat', cursive;
+  }
+  
+  .img1 {
+    position: relative;
+    top:50px;
+    width: 80%;
+  }
+
+  .img2 {
+    position: relative;
+    top:50px;
+    width: 80%;
+  }
+
+  #btn  {
+      background-color:#1e8449;
+      border:none;
+  }
+
+  #dicegameparagraph{
+      position: relative;
+      top:70px;
+  }
+
+  h2{
+    position: relative;
+    top:50px;
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Montserrat', cursive;
+  }
+
+  
+  
